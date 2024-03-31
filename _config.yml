@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Cheng Zhen (甄诚)"
 title_separator          : "-"
 name                     : &name "Your Name"
-description              : &description "Ph.D. Candidate in Computer Science"
+description              : &description "Ph.D. Candidate in Computer Science, Provost's Distinguished Graduate Fellow"
 url                      : https://cheng-97.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://cheng-97.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Cheng Zhen"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Candidate in Computer Science"
+  bio              : "Ph.D. Candidate in Computer Science, Provost's Distinguished Graduate Fellow"
   location         : "Corvallis, Oregon"
   employer         : "Oregon State University"
   uri              : # URL
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : "UniofOxford"  # Replace this with your X / Twitter handle
+  twitter          : # Username
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -205,9 +205,11 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  /* 
+ portfolio:
     output: true
     permalink: /:collection/:path/
+    */
   talks:
     output: true
     permalink: /:collection/:path/
