@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate in Computer Science, Oregon State University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Oregon State University</p>
+    <p>Corvallis, Oregon</p>
+    <p><a href="mailto:zhenc@oregonstate.edu">zhenc@oregonstate.edu</a></p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate in Computer Science at Oregon State University and a Provost's Distinguished Graduate Fellow. My academic path spans materials science, electrical and computer engineering, and computer science: I received my bachelor's degree in Materials Science and Engineering from Northwestern Polytechnical University, completed a master's degree in Electrical and Computer Engineering at Oregon State University, and now work on data systems for artificial intelligence.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/publications/) automatically.
+My current research focuses on building data systems that help modern AI models learn from imperfect, incomplete, and minimally curated raw data. I study scalable data preparation, data cleaning, data quality evaluation, and automated data/model preparation pipelines, with the goal of reducing unnecessary human and computational cost while preserving model reliability. My recent work also explores learning over incomplete data, LLM evaluation, AI agents, and closed-loop systems for improving AI model and agent performance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before my current work in data systems and AI, I worked on machine learning for photonics and optical devices, including generative modeling for large-scale optical design and sensing-related research. This interdisciplinary background shapes how I approach AI infrastructure: I am interested in systems that make advanced AI methods usable on real scientific, engineering, and application data rather than only on clean benchmark datasets.
+
+You can find my full CV [here](/assets/pdf/Cheng_Zhen_CV_jun2026.pdf) and my publications on the [publications page](/publications/).

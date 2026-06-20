@@ -2,96 +2,106 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Cheng Zhen
+    - name: Current Position
+      value: Provost's Distinguished Graduate Fellow and Ph.D. Candidate in Computer Science, Oregon State University
+    - name: Email
+      value: zhenc@oregonstate.edu
+
+- title: Research Interests
+  type: list
+  contents:
+    - Data systems for artificial intelligence
+    - Scalable data preparation, data cleaning, and data quality evaluation
+    - Machine learning over incomplete and imperfect data
+    - LLM evaluation, AI agents, and automated data/model preparation pipelines
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: Oregon State University, Corvallis, OR
+      year: Anticipated 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA 3.9/4.0
+        - Selected coursework includes Database Management, Natural Language Processing, and Convex Optimization.
+    - title: M.S. in Electrical and Computer Engineering
+      institution: Oregon State University, Corvallis, OR
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - GPA 3.9/4.0
+        - Selected coursework includes Computer Architecture and Nonlinear Optimization.
+    - title: B.S. in Materials Science and Engineering
+      institution: Northwestern Polytechnical University, Xi'an, China
+      year: 2019
+      description:
+        - Graduated with honors.
+        - Minor in Law.
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant, Scalable Data Preparation for Large AI Models
+      institution: Oregon State University, Corvallis, OR
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing automated pipelines for data cleaning and augmentation to prepare large-scale datasets from raw data for model training.
+        - Studying how to reduce unnecessary cleaning and augmentation while preserving model quality.
+        - Collaborating with NEC Labs America and Intel Labs through the NSF Pervasive Personalized Intelligence Center.
+    - title: Provost's Distinguished Graduate Fellow, NASA Early-Stage Innovation Project
+      institution: Oregon State University, Corvallis, OR
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed generative models using deep neural networks for large-scale optical device design.
+        - Built a retrieval-augmented generation module integrating an external electromagnetic solver.
+        - Collaborated with teams from NASA and the Georgia Institute of Technology.
+    - title: Research Intern, Machine Learning for Multi-layer Optics
+      institution: Sorbonne University, Paris, France
+      year: 2018 - 2019
       description:
+        - Estimated optical-device parameters with least-square approximation.
+        - Enhanced visualization of large-scale multidimensional optical spectra using Python.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Industry Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Ph.D. Software Engineer Intern
+      institution: Google, Kirkland, WA
+      year: 2025
+      description:
+        - Built an end-to-end agent evaluation pipeline for data generation, simulation, and loss categorization.
+        - Contributed to internal Gemini agent evaluation infrastructure.
+    - title: AI Scientist Intern
+      institution: Salesforce, San Francisco, CA
+      year: 2025
+      description:
+        - Developed an LLM-based multi-agent system for optimizing deep learning training codebases with minimal supervision.
+    - title: Research Intern
+      institution: Samsung Research America, Mountain View, CA
+      year: 2024 - 2025
+      description:
+        - Developed a synthetic data generation pipeline for evaluating AI agents in healthcare domains.
+        - Led a research paper accepted to ACL 2025 Industry Track.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: Oregon State University
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Provost's Distinguished Graduate Fellowship
+        - Professional Development Award, twice
+        - Scholarly Presentation Award
+    - year: National Science Foundation
       items:
-        - Max Planck Medal
+        - Most Impactful Research Award, Pervasive Personalized Intelligence Center
+        - CHIP Award
+    - year: China
+      items:
+        - National Scholarship, Ministry of Education
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Service and Teaching
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Reviewer for ACL 2026, VLDB 2024, ICML 2024, ICDE 2023, and EDBT 2023.
+    - Teaching assistant experience across database systems, software engineering, capstone projects, electrical fundamentals, optical electronic systems, and digital logic design.
+    - Mentored master's and undergraduate students on data preparation, machine learning, and data systems research.
